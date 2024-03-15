@@ -1,7 +1,9 @@
 const { userRegister, getAllUsers } = require("./user.controller");
-
+const { chapterRegister, getAllChapters } = require("./chapter.controller")
 
 module.exports = {
     userRegister,
-    getAllUsers
+    getAllUsers,
+    chapterRegister,
+    getAllChapters,
 }

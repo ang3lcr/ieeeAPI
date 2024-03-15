@@ -20,7 +20,8 @@ const User = db.define(
         },
         lastName: {
             type: DataTypes.STRING,
-            allowNull: false   
+            allowNull: false,
+            field:"last_name"
         },
         email:{
             type: DataTypes.STRING,

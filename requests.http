@@ -1,0 +1,2 @@
+# GET http://localhost:8000/ieee/v1/users HTTP/1.1
+GET http://localhost:8000/ieee/v1/chapters HTTP/1.1

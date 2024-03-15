@@ -15,10 +15,11 @@ const userRegister = async (req, res, next) => {
 }
 
 
-const getAllUsers = async (res, res, next) => {
+const getAllUsers = async (req, res, next) => {
     try {
         const users = await UserService.getAll();
         res.json(users);
+        console.log(users);
     } catch (error) {
         next({
             status: 400,
@@ -27,7 +28,6 @@ const getAllUsers = async (res, res, next) => {
         })    
     }
 }
-
 
 module.exports = {
     userRegister,

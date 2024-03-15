@@ -19,11 +19,11 @@ const Chapter = db.define(
         allowNull: false,
       },
       images:{
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT('long'),
         allowNull: true
       },
       description: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT('long'),
         allowNull: false,
       },
       userId: {
